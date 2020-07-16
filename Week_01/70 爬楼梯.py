@@ -26,7 +26,7 @@
 
 
 # leetcode submit region begin(Prohibit modification and deletion)
-
+#
 def climbStairs(n) -> int:
 # leetcode submit region end(Prohibit modification and deletion)
     a , b =0 , 1
