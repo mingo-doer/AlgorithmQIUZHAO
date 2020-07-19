@@ -45,7 +45,7 @@
 #暴力匹配法  时间复杂度较大
 #考虑用栈
 #将左括号 和右括号形成map
-#  如果栈顶元素不能和左括号匹配，那么就是false
+#  如果栈顶元素不能和右括号匹配，那么就是false
 #  如果一致就将栈顶元素弹出
 def isValid( s) :
 # leetcode submit region end(Prohibit modification and deletion)

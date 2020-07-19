@@ -21,7 +21,7 @@ class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
     #如果两个链表都为空时，表示链表已合并完成
     #如何递归：
-    
+
         #判断二者头节点谁小  谁小就把谁加到剩下的继续递归
         if not l1: return l2
         if not l2: return l1
