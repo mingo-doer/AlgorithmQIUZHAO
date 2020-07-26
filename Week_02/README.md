@@ -87,7 +87,7 @@ def bfs(graph, start, end):
         nodes = generate_related_nodes(node)
         queue.push(nodes)
 ```
-###Heap Sort （堆排序）
+### Heap Sort （堆排序）
 堆排序利用堆的特性来对数组进行排序, 在大根堆中, 最大元素始终为根节点. 堆排序循环的从堆中取出根节点来排序. 具体步骤如下:   
 1.从未排序的数组构造大根堆 heap   
 2.提取最大元素 A[0].   
@@ -136,7 +136,7 @@ def heapSort(arr):
         arr[i], arr[0] = arr[0], arr[i]   # swap 
         heapify(arr, i, 0) 
 ```
-###二叉树遍历
+### 二叉树遍历
 最简易递归模板
 ```
 class Solution:
