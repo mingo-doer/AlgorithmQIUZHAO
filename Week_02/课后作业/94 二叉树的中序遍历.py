@@ -57,3 +57,7 @@ def inorderTravelsal_loop(root):
         #开始右子树
         p = p.right
     return res
+
+if __name__ == '__main__':
+    res = inorderTraversal(TreeNode([3,9,20,None,None,15,7]))
+    print(res)

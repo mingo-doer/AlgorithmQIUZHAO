@@ -36,30 +36,33 @@ class Node:
         self.val = val
         self.children = children
 """
-
+class Node:
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children
 #层序遍历  就是BFS
 #利用队列  先进队列  对每个子树进行遍历
 import collections
 
 
-class Solution:
-    def levelOrder(self, root: 'Node') -> List[List[int]]:
-        if not root:
-            return []
-        res = []
-        #维护一个队列
-        queue = collections.deque([root])
-        #队列非空
-        while queue:
-            level = []
-            for i in range(len(queue)):
 
-                node = queue.popleft()
-                level.append(node.val)
-                queue.extend(node.children)
-            res.append(level)
-        return  res
+def levelOrder(root: 'Node') :
+    if not root:
+        return []
+    res = []
+    #维护一个队列
+    queue = collections.deque([root])
+    #队列非空
+    while queue:
+        level = []
+        for i in range(len(queue)):
 
+            node = queue.popleft()
+            level.append(node.val)
+            # 多叉树会有多个孩子 是个list 需要extend
+            queue.extend(node.children)
+        res.append(level)
+    return  res
 
 # leetcode submit region end(Prohibit modification and deletion)
 

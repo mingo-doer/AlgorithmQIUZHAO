@@ -33,8 +33,10 @@ def climbStairs(n) -> int:
     if n <= 3 :
         return n
     for i in range(n):
-        a , b= b , a+b
+        a , b = b , a+b
     return b
+
+#爬楼梯的递归版本
 
 
 if __name__ == '__main__':
