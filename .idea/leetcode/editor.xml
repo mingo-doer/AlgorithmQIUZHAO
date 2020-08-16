@@ -51,6 +51,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="D:/Temp/leetcode/editor/cn/[130]被围绕的区域.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="D:/Temp/leetcode/editor/cn/[130]被围绕的区域.py" />
+              <option name="questionId" value="130" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="D:/Temp/leetcode/editor/cn/[141]环形链表.py">
           <value>
             <LeetcodeEditor>
@@ -104,6 +112,22 @@
             <LeetcodeEditor>
               <option name="path" value="D:/Temp/leetcode/editor/cn/[17]电话号码的字母组合.py" />
               <option name="questionId" value="17" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="D:/Temp/leetcode/editor/cn/[190]颠倒二进制位.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="D:/Temp/leetcode/editor/cn/[190]颠倒二进制位.py" />
+              <option name="questionId" value="190" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="D:/Temp/leetcode/editor/cn/[191]位1的个数.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="D:/Temp/leetcode/editor/cn/[191]位1的个数.py" />
+              <option name="questionId" value="191" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -171,6 +195,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="D:/Temp/leetcode/editor/cn/[231]2的幂.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="D:/Temp/leetcode/editor/cn/[231]2的幂.py" />
+              <option name="questionId" value="231" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="D:/Temp/leetcode/editor/cn/[239]滑动窗口最大值.py">
           <value>
             <LeetcodeEditor>
@@ -232,6 +264,14 @@
             <LeetcodeEditor>
               <option name="path" value="D:/Temp/leetcode/editor/cn/[347]前 K 个高频元素.py" />
               <option name="questionId" value="347" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="D:/Temp/leetcode/editor/cn/[36]有效的数独.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="D:/Temp/leetcode/editor/cn/[36]有效的数独.py" />
+              <option name="questionId" value="36" />
             </LeetcodeEditor>
           </value>
         </entry>

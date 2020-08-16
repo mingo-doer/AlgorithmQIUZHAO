@@ -28,7 +28,7 @@ class Solution:
         while curr:
             #先将curr.next 保存在temp 防止链表丢失
             temp = curr.next
-            #curr.next 指向前驱节点 pre
+            #pre 指向 cur.next
             curr.next = pre
             #pre 后移一位移到cur当前的位置
             pre = curr

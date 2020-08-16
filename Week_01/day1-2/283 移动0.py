@@ -8,6 +8,7 @@ def moveZeroes(nums) :
         if nums[i]!=0:
             #j中始终为不为0的元素
             nums[j]=nums[i]
+            # 这一步相当关键 把替换的位置设为0
             if i!=j:
                 nums[i]=0
             j=j+1
